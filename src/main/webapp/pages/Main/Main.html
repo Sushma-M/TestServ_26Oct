@@ -5,20 +5,20 @@
         <wm-left-panel columnwidth="2" name="leftpanel" content="leftnav"></wm-left-panel>
         <wm-page-content columnwidth="8" name="mainContent" padding="unset 15px">
             <wm-label padding="unset 0.5em" name="label1" fontsize="3" fontunit="em" caption="bind:Variables.javaserv1.dataSet.value"></wm-label>
-            <wm-grid title="" dataset="bind:Variables.serviceVariable1.dataSet" navigation="Basic" name="grid1">
+            <wm-grid title="Soap Serv Data" dataset="bind:Variables.serviceVariable1.dataSet" navigation="Basic" name="grid1">
                 <wm-grid-column binding="conversionRateResult" caption="Conversion Rate Result" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
             </wm-grid>
-            <wm-grid title="" dataset="bind:Variables.HrdbExecuteTestquery1.dataSet" navigation="Basic" name="grid2">
+            <wm-grid title="Query Var data" dataset="bind:Variables.HrdbExecuteTestquery1.dataSet" navigation="Basic" name="grid2">
                 <wm-grid-column binding="USER_ID" caption="User Id" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
                 <wm-grid-column binding="ROLE" caption="Role" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
                 <wm-grid-column binding="USERNAME" caption="Username" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
                 <wm-grid-column binding="PASSWORD" caption="Password" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
                 <wm-grid-column binding="TENANT_ID" caption="Tenant Id" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
             </wm-grid>
-            <wm-grid title="" dataset="bind:Variables.AdventureWorks2014ExecuteProcquery.dataSet" navigation="Basic" name="grid3">
+            <wm-grid title="Proc var data" dataset="bind:Variables.AdventureWorks2014ExecuteProcquery.dataSet" navigation="Basic" name="grid3">
                 <wm-grid-column binding="Name" caption="Name" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
             </wm-grid>
-            <wm-grid title="" dataset="bind:Variables.FeedServiceGetFeedWithHttpConfig.dataSet" navigation="Basic" name="grid4">
+            <wm-grid title="Feed Serv data" dataset="bind:Variables.FeedServiceGetFeedWithHttpConfig.dataSet" navigation="Basic" name="grid4">
                 <wm-grid-column binding="author" caption="Author" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
                 <wm-grid-column binding="title" caption="Title" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
                 <wm-grid-column binding="feedType" caption="Feed Type" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
@@ -30,7 +30,7 @@
                 <wm-grid-column binding="entries[0].updatedDate" caption="Entries[0] Updated Date" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
                 <wm-grid-column binding="entries[0].description" caption="Entries[0] Description" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
             </wm-grid>
-            <wm-grid title="" dataset="bind:Variables.GoogleapisInvoke.dataSet" navigation="Basic" name="grid5">
+            <wm-grid title="GoogleApis data" dataset="bind:Variables.GoogleapisInvoke.dataSet" navigation="Basic" name="grid5">
                 <wm-grid-column binding="status" caption="Status" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
                 <wm-grid-column binding="route.summary" caption="Route Summary" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
                 <wm-grid-column binding="route.bounds.southwest.lng" caption="Route.bounds.southwest Lng" pcdisplay="true" mobiledisplay="true" readonly="true"></wm-grid-column>
