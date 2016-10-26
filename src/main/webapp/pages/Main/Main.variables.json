@@ -4,7 +4,11 @@
     "name" : "AdventureWorks2014ExecuteProcquery",
     "owner" : "Page",
     "category" : "wm.ServiceVariable",
-    "dataBinding" : [ ],
+    "dataBinding" : [ {
+      "target" : "deptid",
+      "value" : "2",
+      "type" : "integer"
+    } ],
     "type" : "AdventureWorks2014ProcqueryrtnType",
     "service" : "AdventureWorks2014",
     "operation" : "executeProcquery",
